@@ -2,7 +2,7 @@ const passport = require('passport')
 const LocalStrategy = require('passport-local').Strategy
 
 
-import Usuario from './usuarios-modelo'
+const Usuario = require('./usuarios-modelo')
 const { InvalidArgumentError } = require('../erros')
 
 const bcrypt = require('bcrypt')
